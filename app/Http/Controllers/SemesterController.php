@@ -9,19 +9,13 @@ use Illuminate\Http\Request;
 class SemesterController extends Controller
 {
     public function index() {
-        $semester = Semester::all();
-        return view('frontend.kurikulum.semester1', 
-        compact('semester'),
-        [
+        return view('frontend.kurikulum.semester1', [
             'title' => 'Kurikulum'
         ]);
     }
 
     public function dua () {
-        $dua = Semesterdua::all();
-        return view('frontend.kurikulum.semester2',
-        compact('dua'),
-        [
+        return view('frontend.kurikulum.semester2', [
             'title' => 'Kurikulum'
         ]);
     }

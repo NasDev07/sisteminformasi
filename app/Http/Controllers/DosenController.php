@@ -127,22 +127,6 @@ class DosenController extends Controller
         $dosen->delete();
         return redirect()->back();
     }
-
-    public function search(Request $request)
-    {
-        if($request->has('search')) {
-            $mahasiswa = Dosen::where(
-                'judul', 'LIKE', '%' . $request->search . '%'
-                )->get();
-        }else {
-            $mahasiswa = Dosen::all();
-        }
-
-        return view('frontend.berita', [
-            'mahasiswa' => $mahasiswa,
-            'title' => 'Berita',
-        ]);
-    }
     
 }
 

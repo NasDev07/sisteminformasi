@@ -18,10 +18,10 @@
                             <a href="" class="bg-dark fw-bold">
                                 <p class="text-dark">Berita</p>
                             </a>
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href="http://www.facebook.com/sharer.php?u=https://dumetschool.com" target="_black"><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-whatsapp"></i></a>
+                            <a href="http://twitter.com/home/?status=" target="_black"><i class="bi bi-twitter"></i></a>
+                            <a href="http://www.facebook.com/share.php?u=" target="_black"><i class="bi bi-facebook"></i></a>
+                            <a href="http://www.instagram.com/share.php?u=" target="_black"><i class="bi bi-instagram"></i></a>
+                            <a href="http://web.whatsapp.com/share.php?u=" target="_black"><i class="bi bi-whatsapp"></i></a>
                         </div>
                     </div>
                     <div class="member-info">

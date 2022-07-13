@@ -86,7 +86,6 @@ Route::post('/dosen/store', [DosenController::class, 'store']);
 Route::get('/dosen/{id}/edit', [DosenController::class, 'edit']);
 Route::post('/dosen/{id}/update', [DosenController::class, 'update']);
 Route::get('/dosen/{id}/delete', [DosenController::class, 'destroy']);
-Route::get('/berita/search', [DosenController::class, 'search']);
 
 
 // semester 

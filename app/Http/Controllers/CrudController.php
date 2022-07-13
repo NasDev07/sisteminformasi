@@ -134,8 +134,11 @@ class CrudController extends Controller
     {
         if($request->has('search')) {
             $mahasiswa = Daftardosen::where(
-                'judul', 'LIKE', '%' . $request->search . '%'
+                'judul', 'like', '%'.$request->search.'%'
                 )->get();
+            return view('frontend.berita', ['mahasiswa' => $mahasiswa,
+                'title' => 'Hasil Pencarian'
+            ]);
         }else {
             $mahasiswa = Daftardosen::all();
         }
