@@ -105,22 +105,7 @@
                 <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
                         <a href="#">
-                            <i class="bi bi-circle"></i><span>Semester I</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="bi bi-circle"></i><span>Semester II</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="bi bi-circle"></i><span>Semester III</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="bi bi-circle"></i><span>Semester IV</span>
+                            <i class="bi bi-circle"></i><span>Semester</span>
                         </a>
                     </li>
                 </ul>
