@@ -1,18 +1,18 @@
 <?php
-session_start();
+// session_start();
 
-if (isset($_SESSION['login'])) {
-    header('Location: ../login');
-    exit();
-}
+// if (isset($_SESSION['login'])) {
+//     header('Location: ../login');
+//     exit();
+// }
 
 ?>
 
 
-@extends('layouts.main')
+@extends('admin.dashboard')
 
-@section('container')
-    <div class="col-12 mt-3">
+@section('content')
+    <div class="col-12 my-5">
         <div class="card card-info">
             <div class="card-header">
                 <h3 class="card-title">Data Berita</h3>

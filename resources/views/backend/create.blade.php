@@ -9,9 +9,9 @@ if (isset($_SESSION['login'])) {
 
 ?>
 
-@extends('layouts.main')
+@extends('admin.dashboard')
 
-@section('container')
+@section('content')
     <div class="content">
         <div class="card card-info">
             <div class="card-header">

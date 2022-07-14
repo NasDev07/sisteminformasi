@@ -1,11 +1,11 @@
 <?php
 
 session_start();
-    if( isset($_SESSION["dashboard"])) {
-        header("Location: /dashboard");
-        exit;
-    }
 
+if (isset($_SESSION['dashboard'])) {
+    header('Location: ../dashboard');
+    exit();
+}
 ?>
 
 <!DOCTYPE html>
